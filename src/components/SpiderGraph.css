@@ -1,0 +1,19 @@
+.spider-graph {
+    background-color: #1a1a2e;
+    border-radius: 10px;
+  }
+  
+  .vertex-text {
+    fill: #39ff14;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  g:hover .vertex-text {
+    opacity: 1;
+    transform: scale(1);
+  }
+  

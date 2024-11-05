@@ -1,0 +1,74 @@
+
+.polygon-container {
+  display: flex;                 /* Use flexbox for layout */
+  width: 100dvw;                  /* Ensure it uses the full width of its parent */
+  height: 100dvh;                 /* Ensure it uses the full height of its parent */
+}
+
+.player-table {
+  flex: 1; /* Left half for the player table */
+  padding: 20px;
+  background-color: #0d0d1e; /* Slightly lighter background for the table */
+  color: #e0e0e0;
+  border-radius: 10px;
+  }
+
+.player-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.player-table th, .player-table td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.player-table th {
+  background-color: #3a3a6b;
+  color: #f5f5f5;
+}
+
+.player-table tr:hover {
+  background-color: #28284e;
+}
+
+.spider-graph {
+  flex: 1;                      /* Right half for the spider graph */
+  display: flex;
+  justify-content: center;      /* Center the spider graph */
+  align-items: center;          /* Center the spider graph vertically */
+  background-color: #1a1a2e;   /* Optional: background color for the graph section */
+  /* border-radius: 32px; */
+  /* margin: 20px; */
+  /* border: 2px solid rgba(255, 255, 255, 0.1); */
+}
+
+.player-name{
+  color: #39ff14;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 80px;
+}
+
+.player-stats{
+  color: #39ff14;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+}
+.player-stats table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.player-stats th, .player-stats td {
+  border: 0px solid #333;
+  padding: 10px 20px;
+  text-align: center;
+}
+.player-stats th {
+  color: #146605;
+}
