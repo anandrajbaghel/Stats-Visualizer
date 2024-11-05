@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* src/App.css */
+.app-container.night {
+  background-color: #0d0d1e;
+  color: #e0e0e0;
+}
+
+.app-container.day {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.theme-toggle {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #39ff14;
+  color: #0d0d1e;
+  border: none;
+  border-radius: 50px;
+}
+
+.app-container.day .theme-toggle {
+  background-color: #28284e;
+  color: #f5f5f5;
+}
+
+/* Additional day mode styles for table and graph */
+.app-container.day .player-table {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.app-container.day .player-table tr:hover {
+  background-color: #39ff14;
+}
+
+.app-container.day .spider-graph {
+  background-color: #f1f1f1;
+}
